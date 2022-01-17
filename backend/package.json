@@ -1,0 +1,33 @@
+{
+    "name": "youtube-playlist-notifications-backend",
+    "description": "Youtube Playlist Notifications (Backend)",
+    "scripts": {
+        "dev": "npm-run-all -p dev:*",
+        "dev:job": "nodemon -e js src/job.js",
+        "dev:server": "nodemon -e js src/server.js",
+        "build": "npm-run-all -p prod:*",
+        "build:job": "node src/job.js",
+        "build:server": "node src/server.js"
+    },
+    "author": "Deives Fahl <dfahl.cps@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "cron": "^1.8.2",
+        "dotenv": "^12.0.3",
+        "express": "^4.17.2",
+        "express-validator": "^6.14.0",
+        "nodemailer": "^6.7.2",
+        "puppeteer": "^13.0.1",
+        "puppeteer-core": "^13.0.1"
+    },
+    "devDependencies": {
+        "@prisma/client": "^3.8.1",
+        "eslint": "^8.6.0",
+        "nodemon": "^2.0.15",
+        "npm-run-all": "^4.1.5",
+        "prisma": "^3.8.1"
+    }
+}

@@ -1,0 +1,34 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource sqlite {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Playlist {
+  id         String    @id @default(uuid())
+  title      String
+  url        String
+  videos     Video[]
+  created_at DateTime
+  updated_at DateTime?
+
+  @@map("playlists")
+}
+
+model Video {
+  id         String    @id @default(uuid())
+  title      String
+  url        String
+  imageUrl   String
+  sort       Int
+  notify     String
+  playlistId String
+  playlist   Playlist  @relation(fields: [playlistId], references: [id], onDelete: Cascade)
+  created_at DateTime
+  updated_at DateTime?
+
+  @@map("videos")
+}

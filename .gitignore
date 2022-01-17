@@ -1,0 +1,9 @@
+/.idea
+/.vscode
+/backend/node_modules
+/backend/prisma/*
+/frontend/node_modules
+
+!/backend/prisma/schema.prisma
+.env
+package-lock.json
