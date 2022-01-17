@@ -4,7 +4,7 @@ const Header = (function () {
             <header class="layoutHeader">
                 <div class="layoutHeader__logo">
                     <a href="/">
-                        <img src="images/logo-light.png" id="layoutHeaderLogo" alt="Youtube Playlist Notifications">
+                        <img src="images/logo-light.png" id="layoutHeaderLogo" alt="YouTube Playlist Notifications">
                     </a>
                 </div>
 

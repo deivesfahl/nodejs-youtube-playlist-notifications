@@ -1,12 +1,12 @@
 <p align="center">
-    <img src=".github/symbol.png" width="200" alt="Youtube Playlist Notifications Logo">
+    <img src=".github/symbol.png" width="200" alt="YouTube Playlist Notifications Logo">
 </p>
 
 <p align="center">
-    <h1 align="center">Youtube Playlist Notifications</h1>
+    <h1 align="center">YouTube Playlist Notifications</h1>
 </p>
 
-Youtube Playlist Notifications é um projeto criado para uso pessoal, no qual tem como objetivo enviar notificações via e-mail quando um novo vídeo é publicado em uma playlist do YouTube.
+YouTube Playlist Notifications é um projeto criado para uso pessoal, no qual tem como objetivo enviar notificações via e-mail quando um novo vídeo é publicado em uma playlist do YouTube.
 
 # Backend
 
@@ -135,7 +135,7 @@ DELETE /api/videos/:id
 ## Layout
 
 <p align="center">
-    <img src=".github/layout.png" alt="Youtube Playlist Notifications Layout">
+    <img src=".github/layout.png" alt="YouTube Playlist Notifications Layout">
 </p>
 
 ## Inicializar

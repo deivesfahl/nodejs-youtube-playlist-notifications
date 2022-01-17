@@ -1,6 +1,6 @@
 {
     "name": "youtube-playlist-notifications-frontend",
-    "description": "Youtube Playlist Notifications (Frontend)",
+    "description": "YouTube Playlist Notifications (Frontend)",
     "scripts": {
         "build": "webpack --config webpack.config.prod.js --progress",
         "dev": "webpack --config webpack.config.dev.js --progress --watch",

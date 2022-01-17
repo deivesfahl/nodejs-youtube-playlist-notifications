@@ -1,6 +1,6 @@
 {
     "name": "youtube-playlist-notifications-backend",
-    "description": "Youtube Playlist Notifications (Backend)",
+    "description": "YouTube Playlist Notifications (Backend)",
     "scripts": {
         "dev": "npm-run-all -p dev:*",
         "dev:job": "nodemon -e js src/job.js",
