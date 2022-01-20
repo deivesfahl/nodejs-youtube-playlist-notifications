@@ -6,6 +6,12 @@ const index = async (request, response) => {
 
     const videos = await Video.FindAll({ id, playlistId });
 
+    videos.map(video => {
+        video.url = `https://www.youtube.com${video.url}`;
+
+        return video;
+    });
+
     return response.status(200).json(videos);
 };
 
