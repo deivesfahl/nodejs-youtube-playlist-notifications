@@ -43,7 +43,9 @@ const saveVideo = async ({ playlistId, title, url, imageUrl }) => {
 };
 
 const execute = async () => {
-    const playlists = await Playlist.FindAll();
+    const playlists = await Playlist.FindAll({
+        sort: { created_at: 'asc' },
+    });
 
     if (!playlists) {
         return;
